@@ -3,7 +3,6 @@ import parallax from './class'
 export default {
     init(el){
         let settings = this.parseAttributes(el)
-        console.log(settings)
         let pllx = new parallax(el, settings)
         pllx.animate()
         return pllx
